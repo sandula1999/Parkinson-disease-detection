@@ -1,0 +1,28 @@
+:root {
+    --base-color:  #FFFFFF; 
+    --primary-color: #247CFF;
+    --secondary-color: #0E3672;
+    --heading-color: #181818;
+    --link-color:#FFFFFF;
+    --link-bg-color: #81C101;
+    --link-hover-bg-color: #007CFB;
+    --link-hover-color: #000000;
+    --sub-heading-color:#999999;
+    --sec-bg-color:#BDBDBD;
+    --body-font: 'Heebo'; 
+    --body-font-size: 14px;
+    --body-font-weight: 400;
+    --primary-font: 'Anton';
+    --secondary-font: 'Heebo';
+    --menu-font: 'Heebo';  
+    --menu-font-size: 18px;
+    --menu-font-weight: 700;
+    --sub-menu-font: 'Heebo';  
+    --sub-menu-font-size: 16px;
+    --sub-menu-font-weight: 700;
+    --form-inputs-text-color:#FFFFFF ;
+    --form-fieldBorder-color: ;
+    --form-fieldInput-bg-color:rgba(255, 255, 255, 0.2) ;
+    --form-label-font-color:#181818 ;
+    --form-input-border-color: rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Medica </title>
+    <!-- Stylesheets -->
+    <link th:href="@{assets/user/css/bootstrap.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/icofont.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/base.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/color.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/style.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/style-2.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/responsive.css}" rel="stylesheet" />
+    <link th:href="@{assets/user/css/fontawesome-all.css}" rel="stylesheet" />
+    <link rel="shortcut icon" th:href="@{assets/user/images/favicon.png}" type="image/x-icon" />
+    <link rel="icon"th:href="@{assets/user/images/favicon.png}" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="m" class="letters-loading"> m </span>
+                            <span data-text-preloader="e" class="letters-loading"> e </span>
+                            <span data-text-preloader="d" class="letters-loading"> d </span>
+                            <span data-text-preloader="i" class="letters-loading"> i </span>
+                            <span data-text-preloader="c" class="letters-loading"> c </span>
+                            <span data-text-preloader="a" class="letters-loading"> a </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- start Main Header -->
+        <header class="main-header home-five">
+            <div class="large-container">
+                <!-- Header Upper -->
+                <div class="header-upper outer-box">
+                    <div class="logo-outer">
+                        <div class="logo">
+                            <a href="index.html"><img th:src="@{assets/user/images/Logo-(1).png}" style="width: 150px; " alt="" title="" /></a>
+                        </div>
+                    </div>
+                    <!-- Main Menu -->
+                    <div class="menu-area clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </div>
+                        <nav class="main-menu navbar-expand-md navbar-light" style="margin-left: 60px; font-size: 5px;">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li style="margin-left: 60px; font-size: 5px;"><a th:href="@{'/'}">Home</a></li>
+                                    <li><a th:href="@{'/about'}">About us</a></li>
+                                    <li><a th:href="@{'/doctor'}">Doctors</a></li>
+                                    <li><a th:href="@{'/service'}">Services</a></li>
+                                    
+                                    
+                                    <th:block th:if="${user==NULL}">
+							 <li><a th:href="@{'/signin'}">Log In</a></li>
+						</th:block>
+						<th:block th:if="${user!=null}">
+							 <li><a href="#">Check Disease</a></li>
+							 <li><a href="/logout">Log Out</a></li>
+						</th:block>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Main Menu End-->
+                    <!--Nav Box-->
+                </div>
+                <!--End Header Upper-->
+            </div>
+            <!-- Sticky Header  -->
+            <div class="sticky-header home-5">
+                <div class="auto-container">
+                    <div class="header-upper outer-box">
+                        <div class="logo-outer">
+                            <div class="logo">
+                                <a href="index.html"><img th:src="@{assets/user/images/Logo-(1).png}" alt="" title="" /></a>
+                            </div>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix">
+                                <!--Keep This Empty / Menu will come through Javascript-->
+                            </nav>
+                        </div>
+                        <div class="nav-outer">
+                            <div class="search-box-outer search-toggler">
+                                <i class="flaticon-search"></i>
+                            </div>
+                            <div class="top-nav-image nav-btn nav-toggler navSidebar-button clearfix">
+                                <span class="flaticon-menu"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Sticky Menu -->
+        </header>
+        <!-- End Main Header -->
+
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img th:src="@{assets/user/images/home-four-logo-img.png}" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+      
+        <!--Error Section-->
+        <div class="error-section">
+            <div class="container clearfix">
+                <div class="error-content">
+                    <div class="error-sub-title">
+                        <h1>Oops! Page not found</h1>
+                    </div>
+                    <div class="error-text">
+                        <h4>We're not being able to find the page </h4>
+                    </div>
+					<div class="error-link-btn">
+						<a class="theme-btn-two" th:href="@{'/'}">back home</a>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!--End Error Section-->
+
+		<!-- footer section start -->
+        <footer class="main-footer home-three error-page">
+            <div class="container">
+                <!--Widgets Section-->
+                <div class="widgets-section">
+                    <div class="row clearfix">
+                        <!--Footer Column-->
+                        <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                            <div class="footer-widget">
+                                <div class="logo-four">
+                                    <a href="index.html"><img th:src="@{assets/user/images/home-two-footer-logo.png}" alt="" title=""></a>
+                                </div>
+                                <ul class="social-links-four">
+                                    <li><a href="index.html"><i class="flaticon-facebook"></i></a></li>
+									<li><a href="index.html"><i class="flaticon-twitter"></i></a></li>
+									<li><a href="index.html"><i class="flaticon-instagram"></i></a></li>
+									<li><a href="index.html"><i class="flaticon-linkedin"></i></a></li>
+                                </ul>
+                                <div class="footer-sub-text">
+                                    At MEDICA, we strive for excellence <br />
+                                    in healthcare and patient satisfaction.
+                                </div>
+                            </div>
+                        </div>
+                        <!--Footer Column-->
+                        <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-widget_four">
+                                <h4 class="list-heading">Explore Links</h4>
+                                <ul class="footer-service-list">
+                                    <li><a href="index.html">Our Services</a></li>
+                                    <li><a href="index.html">Meet Our Team</a></li>
+                                    <li><a href="index.html">Our Portfolio</a></li>
+                                    <li><a href="index.html">Laundry Service</a></li>
+                                    <li><a href="index.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Footer Column-->
+                        <div class="footer-column col-lg-2 col-md-6 col-sm-12">
+                            <div class="footer-widget_four">
+                                <h4 class="list-heading">Utility Pages</h4>
+                                <!--News Widget Block-->
+                                <div class="usefull-widget-block">
+                                    <div class="widget-inner">
+                                        <ul class="footer-usefull-link">
+                                            <li><a href="index.html">Style Guide</a></li>
+                                            <li><a href="index.html">Password Protected</a></li>
+                                            <li><a href="index.html">404 Not Found</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Footer Column-->
+                        <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-widget_four">
+                                <h4 class="list-heading">Contact</h4>
+                                <ul class="contact-list">
+                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@example.com">contact@mediac.com</a></li>
+                                    <li><i class="flaticon-phone"></i><a href="tel:88657524332">(123) 456 - 7890</a></li>
+                                    <li><i class="flaticon-location"></i>24 Broadcast Drive Charlotte  NC 28202, USA</li>	
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom_content">	
+                    <div class="copyright">Copyright &copy; 2023 All rights Reserved</div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+	</div>
+    <!-- End pagewrapper -->
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+	<!--Scroll to top-->
+	<script th:src="@{assets/user/js/jquery.js}"></script>
+	<script th:src="@{assets/user/js/popper.min.js}"></script>
+	<script th:src="@{assets/user/js/owl.js}"></script>
+	<script th:src="@{assets/user/js/bootstrap.min.js}"></script>
+	<script th:src="@{assets/user/js/appear.js}"></script>
+    <script th:src="@{assets/user/js/wow.js}"></script>
+	<script th:src="@{assets/user/js/nav-tool.js}"></script>
+    <script th:src="@{assets/user/js/jquery.fancybox.js}"></script>
+	<script th:src="@{assets/user/js/script.js}"></script>
+
+</body>
+</html>

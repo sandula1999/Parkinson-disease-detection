@@ -1,0 +1,1776 @@
+/* Home one responsive */
+/* ---------------------------- */
+
+@media only screen and (max-width: 6000px) {
+
+    .page-wrapper {
+        overflow: hidden;
+    }
+
+    .main-header.home-three .header-upper .navbar-header.nav-btn.nav-toggler.navSidebar-button span{
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .count-text-block {
+        padding: 110px  240px 57px 199px;
+        height: 850px;
+    }
+
+    .choose-image-block img {
+        position: relative;
+        width: 100%;
+        height: 850px;
+    
+    }
+   
+}
+
+@media only screen and (max-width: 1800px) {
+    .count-text-block {
+        padding: 139px 240px 57px 199px;
+    }
+
+    .choose-madica h3 {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 57px;
+        color: #FFFFFF;
+    }
+   
+}
+
+@media only screen and (max-width: 1780px){
+    .count-text-block {
+        padding: 47px 100px 57px 100px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    
+
+    .main-header.home-two .outer-box.clearfix{
+        margin-left: 0px;
+    }
+
+    .banner-section .image-shape{
+        display: none;
+    }
+
+
+    /* --------------------- */
+    /* home-four responsive */
+    /* --------------------- */
+    .main-bannar.home-four .pattern-layer-2{
+        display: none;
+    } 
+}
+
+@media only screen and (max-width: 1500px) {
+    
+
+
+}
+
+@media only screen and (max-width: 1320px) {
+
+    .header-upper.outer-box{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-menu .navigation > li {
+        margin-right: 60px;
+    }
+
+    .top-nav-image ul{
+        display: none;
+    }
+
+    .main-header .search-box-outer::before{
+        display: none;
+    }
+
+    .choose-madica.home-three .count-text-block {
+        background: #0E3672;
+        padding: 30px 50px 3px 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-menu .navigation > li{
+        margin-right: 40px;
+    }
+
+    .testimonial-section .three-item-carousel.owl-carousel.owl-theme.owl-loaded.owl-drag{
+        right: 0px;
+    }
+
+    /* home two responsive */
+    .main-header.home-two:before{
+        background-color: inherit;
+    }
+
+    .choose-madica.home-three .count-text-block {
+        background: #0E3672;
+        padding: 50px 50px 23px 30px;
+    }
+
+    .main-header.home-three .main-menu .navigation.clearfix {
+        display: flex;
+        width: 785px;
+        margin: 0 auto;
+    }
+
+    .doctors-dtails_content .inner-image_box img {
+        width: 100%;
+    }
+
+    .orthopedics-items .image-boxs img {
+        width: 100%;
+    }
+
+    .orthopedics-link-btn{
+        margin-top: 40px;
+    }
+
+    .blog-details-content .content-items .image-box img {
+        width: 100%;
+    }
+
+    .main-menu,
+      .sticky-header,
+      .main-header.style-one .outer-container:before{
+        display: none !important;
+      }
+
+      .menu-area .mobile-nav-toggler {
+        display: block;
+        padding: 10px;
+      }
+
+    .text-title br{
+        display: none;
+    }
+
+    .department-content .department-block-one{
+        padding-left: 0px;
+    }
+
+    .department-content .department-block-one .doctor-image{
+        position: relative;
+    }
+
+    .department-content .department-block-one{
+        max-width: 310px;
+        margin: 0 auto;
+    }
+
+    .count-text-block .small-section-block .text-sec-block .text-discription br{
+        display: none;
+    }
+
+    .Projects-section.home-three .owl-nav{
+        display: none;
+    }
+
+    .download-image-content .inner-image-one img{
+        height: auto;
+        margin: 0px;
+    }
+
+    .banner-carousel .image-box{
+        display: none;
+    }
+
+    .banner-carousel .content-box{
+        padding-left: 30px;
+    }
+
+    .team-members p br{
+        display: none;
+    }
+
+    .choose-madica .banner-carousel .image-box{
+        display: block;
+    }
+
+    .department-content .department-block-one{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .sticky-header {
+        display: none !important;
+    }
+
+    .testimonial-section .three-item-carousel button.owl-prev{
+        display: none;
+    }
+
+    .testimonial-section .three-item-carousel button.owl-next{
+        display: none;
+    }
+
+    .testimonial-section .three-item-carousel .owl-dots {
+        display: none;
+    } 
+
+    .expert-member .owl-nav {
+        display: none;
+    }
+    .expert-member .owl-dots {
+        display: none;
+    }
+
+    /* home two responsive */
+    .department-content .left-column{
+        display: block;
+    }
+
+    section.diabetes-education .one-item-carousel button.owl-prev{
+        display: none;
+    }
+
+    section.diabetes-education .one-item-carousel button.owl-next{
+        display: none;
+    }
+
+    .left-column .department_content {
+        padding: 65px 33px 20px 46px;
+    }
+
+    .department-social-links {
+        display: flex;
+        justify-content: left;
+    }
+
+    .department-content .right-column{
+        display: block; 
+    }
+
+    .right-column .department_content{
+        padding: 65px 33px 20px 46px;
+    }
+
+    .customers-service .owl-nav {
+        display: none;
+    }
+
+    .customers-service .owl-dots {
+        display: none;
+    }
+
+
+    /* about page responsive */
+
+
+    .video-section.about-page .vedio-image .image_icon a::before, .video-section.about-page .vedio-image .image_icon a::after{
+        width: 16%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-header .main-menu{
+        margin-left: 70px;
+    }
+
+    .main-header .top-nav-image {
+        display: none;
+    }
+
+    .main-header .header-upper .nav-outer {
+        margin-right: 20px;
+    }
+
+    .contact-system .inner-box {
+        margin-bottom: 30px;
+    }
+
+    .sidebar-info-contents .content-inner .main-menu {
+        margin-top: -41px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .main-slider.home-three:before{
+        display: none;
+    }
+
+    .testimonial-section .three-item-carousel.owl-carousel.owl-theme.owl-loaded.owl-drag{
+        right: 0px;
+    }
+
+    .main-header.home-three .main-menu .navigation.clearfix {
+        width: 595px;
+    }
+
+    .main-header.home-three .main-menu .navigation > li {
+        margin-right: 23px;
+    }
+
+    .main-header.home-three .dropdown-image.main-menu .navigation>li>a{
+        font-size: 16px;
+    }
+
+    .main-header .header-upper .nav-outer{
+        margin-left: 11px;
+    }
+
+    .customers-talk .sec-title {
+        margin-bottom: 30px;
+    }
+
+    .bg-lawyer-img .image-shape {
+        display: none;
+    }
+
+    .video-section .image_icon {
+        text-align: center;
+        padding: 232px 389px;
+    }
+
+    .video-content .vedio-image .image_icon a:before, .video-content .vedio-image .image_icon a:after {
+        width: 11%;
+        height: 20%;
+        top: 47%;
+        left: 50%;
+    }
+
+    .expert-member .image-box .social-links-two{
+        right: 25px;
+    }
+
+    .network-section .network-bg-color {
+        border-radius: 0px;
+        padding: 87px 34px 74px 56px;
+    }
+
+  /* home-three responsive */
+
+    .download-medica .bottom-content-img img {
+        width: 100%;
+    }
+
+    .video-content .vedio-image .image_icon a::before, .video-content .vedio-image .image_icon a::after{
+        display: none;
+    }
+
+    .main-header.home-three .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 75px;
+        right: 18%;
+    }
+
+    .main-header.home-three .search-box-outer {
+        margin-top: -37px;
+    }
+
+    .main-header.home-three .dropdown-image {
+        margin-top: -42px;
+    }
+
+    /* home-four responsive */
+    .main-bannar.home-four:before{
+        display: none;
+    }
+
+    .main-bannar.home-four:after{
+        display: none;
+    }
+
+    .main-bannar.home-four .bannar-shape-img{
+        display: none;
+    }
+
+    .download-medica.four .map-image.float-bob-y{
+        display: none;
+    }
+
+    .download-medica.four .download-text-block {
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .download-image-content .years-text{
+        display: none;
+    }
+
+    .download-image-content .inner-image-three{
+        display: none; 
+    }
+
+    .blog-section .blog-shape-image{
+        display: none;
+    }
+
+    .emergency-shape-image .left-shape-image{
+        display: none;
+    }
+
+    .customers-service.home-four::before{
+        display: none;
+    }
+
+    .singup-content {
+        border-radius: 0;
+    }
+
+    .new-block-one .inner-box .lower-content .info-box li {
+        margin-right: 10px;
+    }
+
+    .main-footer.home-two .widgets-section {
+        border-radius: 0px;
+    }
+    
+
+    /* about page responsive */
+    .inner-img_box:hover .social-links-two{
+        right: 50px;
+    }
+
+    .doctors-dtails_content .inner-image_box img {
+        width: 100%;
+    }
+
+    .doctors-dtails_content .description-list .info-list li span{
+        display: block;
+    }
+
+
+    /* service page */
+    .count-text-block {
+        padding: 50px 30px 90px 15px;
+    }
+
+    .inner-pricing-box .pricing-table{
+        margin-bottom: 30px;
+    }
+
+    .orthopedics-items .gallery-content {
+        margin-top: 30px;
+    }
+
+    .orthopedics-link-btn{
+        margin-top: 60px;
+    }
+
+    .blog-details-content .comments-form-area {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .main-menu .navigation>li>ul,
+    .main-menu .navigation>li>ul>li>ul {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .main-header .header-upper .logo-outer {
+        width: auto;
+    }
+
+    .main-slider .item.slider-one__slide{
+        padding-top: 150px;
+    }
+
+    .main-header.home-three .dropdown-image{
+        display: none;
+    }
+
+    .main-header.home-three .header-upper .navbar-header.nav-btn.nav-toggler.navSidebar-button span{
+        color: black;
+    }
+
+    .fixed-header .sticky-header {
+       display: none;
+    }
+
+    .header-style-two .outer-box {
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: -2px;
+    }
+
+    .header-style-two .search-box-outer .dropdown-menu {
+        left: -20px !important;
+        right: auto !important;
+    }
+
+    .header-style-two .info-outer .info-box,
+    .header-style-two .info-outer .info-box:first-child {
+        width: 100%;
+        padding: 0px 10px !important;
+    }
+
+    .main-header .main-menu {
+        width: 100%;
+        margin: 0px;
+        float: none;
+        position: inherit;
+    }
+
+    .main-menu .navbar-header {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+
+    .main-header .top-right>ul>li {
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .main-menu .collapse {
+        max-height: 400px;
+        overflow: auto;
+        float: none;
+        padding: 10px 0px 0px;
+        border: none;
+        margin: 0px 0px 15px;
+        -ms-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -o-border-radius: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .main-menu .collapse.in,
+    .main-menu .collapsing {
+        padding: 10px 0px 0px;
+        border: none;
+        margin: 0px 0px 15px;
+        -ms-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -o-border-radius: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .navbar-dark .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler .icon {
+        position: relative;
+        font-size: 34px;
+        line-height: 1.2em;
+        color: #0e4082;
+    }
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    .main-menu .navbar-collapse>.navigation {
+        float: none !important;
+        margin: 0px !important;
+        width: 100% !important;
+        border: 1px solid #ffffff;
+        border-top: none;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li {
+        margin: 0px !important;
+        float: none !important;
+        padding: 0px !important;
+        width: 100%;
+    }
+
+    .main-menu .navigation>li>a,
+    .main-menu .navigation>li>ul:before {
+        border: none;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>a {
+        padding: 10px 10px !important;
+        border: none !important;
+        font-size: 15px !important;
+    }
+
+    .main-menu .navigation li.dropdown>a:after,
+    .main-menu .navigation>li.dropdown>a:before,
+    .main-menu .navigation>li>ul>li>a::before,
+    .main-menu .navigation>li>ul>li>ul>li>a::before {
+        color: #ffffff !important;
+        right: 15px;
+        font-size: 16px;
+        display: none !important;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>ul,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul {
+        position: relative;
+        border: none;
+        float: none;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        margin: 0px;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        padding: 0px;
+        outline: none;
+        width: 100%;
+        background-color: #247CFF;
+        -webkit-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        transition: none !important;
+        -webkit-transition: none !important;
+        -ms-transition: none !important;
+        -o-transition: none !important;
+        -moz-transition: none !important;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1);
+        -webkit-box-shadow: none;
+        -ms-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>ul,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul {
+        border-top: 1px solid rgba(255, 255, 255, 1) !important;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li,
+    .main-menu .navbar-collapse>.navigation>li>ul>li,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li {
+        border-top: 1px solid rgba(255, 255, 255, 1) !important;
+        border-bottom: none;
+        opacity: 1 !important;
+        top: 8px !important;
+        left: 0px !important;
+        visibility: visible !important;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>ul>li:first-child,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:first-child {
+        border-top: none !important;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li:first-child {
+        border: none;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li>a {
+        padding: 12px 20px !important;
+        line-height: 22px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 15px;
+        background-color: #247CFF;
+        text-align: left;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li>a:hover,
+    .main-menu .navbar-collapse>.navigation>li>a:active,
+    .main-menu .navbar-collapse>.navigation>li>a:focus {
+        background-color: #247CFF;
+    }
+
+    .main-menu .navbar-collapse>.navigation>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
+    .main-menu .navbar-collapse>.navigation>li.current>a,
+
+    .main-menu .navbar-collapse>.navigation>li.current-menu-item>a {
+        background-color: #247CFF;
+        color: #ffffff !important;
+    }
+
+    .main-menu .navbar-collapse>.navigation li.dropdown .dropdown-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-menu .navigation>li>ul>li>ul>li,
+    .main-menu .navigation>li>ul>li {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-menu .navigation>li>ul>li>ul>li>a,
+    .main-menu .navigation>li>ul>li>a {
+        border-bottom: 0;
+    }
+
+    .main-header .header-upper .nav-outer{
+        display: none;
+    }
+
+    .choose-madica {
+        margin-top: 50px;
+    }
+
+    .video-content .vedio-image .image_icon a::before, .video-content .vedio-image .image_icon a::after {
+        width: 15%;
+        height: 19%;
+        top: 47%;
+        left: 62%;
+    }
+
+    .expert-member .image-box .social-links-two {
+        right: 282px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .contact-number {
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .section-title_two h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .cleaner-showdo-box {
+        font-size: 16px;
+    }
+
+    .image-blogs {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .location-content {
+        margin-bottom: 30px;
+    }
+
+    .contact-number {
+        font-size: 35px;
+        line-height: 54px;
+    } 
+
+    .contact-system .inner-box{
+        margin-bottom: 15px;
+    }
+
+    .section-heading{
+        display: none;
+    }
+
+    .image-content {
+        position: relative;
+        right: -7px;
+        bottom: -2px;
+    }
+
+    .singup-bg-color .bg-map-img .map_image-shape{
+        display: none;
+    }
+
+    .service-carousel .image-blogs {
+        bottom: -70px;
+    }
+
+
+    /* home two responsive */
+
+    .main-slider.home-two .banner-title {
+        font-size: 63px;
+        line-height: 100px;
+    }
+
+    .testimonial-section.home-two .owl-nav {
+        display: none;
+    }
+
+    .video-content .vedio-image .image_icon a::before, .video-content .vedio-image .image_icon a::after{
+        width: 16%;
+    }
+
+    .diabetes-education .one-item-carousel .owl-nav{
+        display: none;
+    }
+
+    .department-content .right-column {
+        display: block;
+        margin-top: 30px;
+    }
+
+    /* home three responsive */
+    .main-slider.home-three:before{
+        display: none;
+    }
+
+    .choose-madica.home-three .count-text-block .small-section-block{
+        display: block;
+    }
+
+    .choose-madica.home-three .count-text-block{
+        padding: 30px;
+    }
+
+    section.main-slider.home-three .slider-image-box {
+        margin-top: 50px;
+    }
+
+    .Projects-section.home-three .owl-nav {
+        display: none;
+    }
+
+    .main-header.home-three .search-box-outer {
+        display: none;
+    }
+
+    /* home four responsive */
+    .main-bannar.home-four .image-box .video-btn {
+        top: 30%;
+    }
+
+    .main-bannar.home-four {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+    .download-image-content .inner-image-one img {
+        margin-left: 0px;
+    }
+
+    .download-image-content .inner-image-three{
+        display: none;
+    }
+
+    .download-medica.four .download-text-block {
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .news-block-one .inner-box {
+        margin-top: 30px;
+    }
+
+    .emergency-shape-image .right-shape-image{
+        display: none;
+    }
+
+    .emergency-help .sub_title{
+        margin-top: 0px;
+    }
+
+    .brand-one {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .testimonial-section.home-two .image-gallery {
+        margin-top: 60px;
+    }
+
+    .main-footer.home-four {
+        margin-top: 0px;
+    }
+
+    /* about page responsive */
+    .customers-talk {
+        padding-bottom: 50px;
+    }
+
+    .funfact-one .inner-items {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog-section .image-content {
+        position: absolute;
+        left: 2%;
+        bottom: -256px;
+        max-width: 380px;
+    }
+
+    .blog-section .right-content {
+        margin-left: 0px;
+        margin-top: 313px;
+    }
+
+    .apps-download {
+        margin-top: 50px;
+    }
+
+    .apps-download .parallax-icon .icon-1{
+        background-image: inherit;
+    }
+
+    .apps-download .parallax-icon .icon-2{
+        background-image: inherit;
+    }
+
+    .apps-content .apps-heading_text{
+        border-radius: 0px;
+    }
+
+
+
+    /* ------------------- */
+    .doctors-dtails_content .text-content{
+        padding-left: 30px;
+    }
+
+
+    /* blog details responsive */
+    .bannar-title_details.two {
+        padding: 80px;
+    }
+
+    .sidebar-page-container .blog-sidebar {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+
+    .sidebar-page-container {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .main-slider .bg-slider-image{
+        min-height: auto;
+    }
+
+    .main-slider .item.slider-one__slide{
+        padding-bottom: 250px;
+    }
+
+    .contact-system .inner-box{
+        padding: 0px 15px;
+    }
+
+    .image-content .banner-carousel .owl-dots{
+        display: none;
+    }
+
+    .blog-section .right-content img{
+        width: 100%;
+    }
+
+    .choose-madica{
+        padding-bottom: 70px;
+    }
+
+    .testimonial-section .top-content{
+        padding: 0px 15px;
+    }
+
+    .testimonial-section .image-gallery{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .image-carousel{
+        margin-bottom: 60px;
+    }
+
+    footer.main-footer.home-one .widgets-section{
+        padding-top: 70px;
+    }
+
+    .main-slider.home-two .item.slider-one__slide{
+        padding-bottom: 0px;
+    }
+
+    .main-slider.home-two .bg-slider-image{
+        min-height: 500px;
+    }
+
+    .testimonial-section.home-two{
+        padding-top: 100px;
+    }
+
+    .download-medica{
+        padding-top: 70px;
+    }
+
+    .download-medica.two .video-content{
+        margin-bottom: 30px;
+    }
+
+    .check-list.two{
+        display: block;
+    }
+
+    .network-bg-color .text-title.network{
+        margin-bottom: 30px;
+    }
+
+    .main-slider.home-three .item.slider-one__slide{
+        padding-bottom: 100px;
+    }
+
+    .testimonial-section.home-three .image_section-gallery .image-gallery_bottom{
+        padding-left: 30px;
+    }
+
+    .testimonial-section.home-three{
+        padding-bottom: 70px;
+    }
+
+    .choose-image-block img{
+        height: auto;
+    }
+
+    .image-sec-block{
+        margin-bottom: 20px;
+    }
+
+    .main-header.home-four .header-upper .logo-outer{
+        margin-right: 0px;
+    }
+
+    .download-image-content .inner-image-two{
+        position: relative;
+        margin-top: 30px;
+        bottom: 0px;
+    }
+
+    .download-image-content .inner-image-two img{
+        width: 100%;
+    }
+
+    .download-medica.four .download-text-block{
+        padding-left: 0px;
+    }
+
+    .download-medica.four{
+        padding-bottom: 70px;
+    }
+
+    .blog-section.home-four{
+        margin-top: 0px;
+    }
+
+    .header-top .top-left{
+        float: none;
+        text-align: center;
+    }
+
+    .main-header.home-five .header-top .top-inner .pull-right{
+        float: none;
+        padding-top: 0px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .banner-carousel .content-box .icon-list{
+        display: none;
+    }
+
+    .testimonial-section.home-three.home-five{
+        padding-top: 70px;
+    }
+
+    .doctors-dtails_content .text-content{
+        padding-left: 0px;
+    }
+
+    .doctors-dtails_content .text-content .link-button .icon-box{
+        display: none;
+    }
+
+    .testimonial-section.service-page{
+        padding-top: 50px;
+    }
+
+    .orthopedics-items{
+        margin-top: 70px;
+    }
+
+    .orthopedics-link-btn{
+        width: 290px;
+    }
+
+    .bannar-title_details{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .blog-sidebar .sidebar-widget.category-widget{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .touch-items.contact{
+        height: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0px;
+    }
+
+    .error-content .error-image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .error-section .error-sub-title h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 668px){
+    /* home one responsive */
+    .testimonial-section {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    .main-bannar.home-four .pattern-layer{
+        display: none;
+    }  
+
+    .download-image-content .bold-text{
+        display: none;
+    }
+
+    .download-image-content .years-text{
+        display: none;
+    }
+
+    .recent-blog {
+        margin-top: 50px;
+    }
+
+     /* about page responsive */
+
+     .video-section .image_icon {
+        text-align: center;
+        padding: 232px 236px;
+    }
+
+    .main-bannar .bannar-shape-img{
+        display: none;
+    }
+
+    .video-section.about-page .vedio-image .image_icon a::before, .video-section.about-page .vedio-image .image_icon a::after {
+        width: 24%;
+    }
+
+    .Primary-Care .primary-list {
+        display: block;
+    }
+
+    /* doctors details responsive */
+    .doctors-dtails_content .inner-image_box img {
+        width: 100%;
+    }
+
+    .singup-content {
+        border-radius: 0;
+        padding: 92px 30px 92px 30px;
+    }
+
+    .main-bannar .bannar-title{
+        padding: 37px;
+        font-size: 50px;
+        line-height: 190px;
+    }
+
+    .doctors-dtails_content {
+        margin-bottom: 50px;
+    }
+
+    /* blog details pesponsive */
+    .bannar-title_details.two {
+        padding: 50px;
+    }
+
+    .blog-details-content .comment-box .comment:nth-child(3) {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .main-slider .banner-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .form-group_btn input[type="email"]{
+        padding-right: 30px;
+    }
+
+    .main-slider .banner-title br{
+        display: none;
+    }
+
+    .main-slider .sub-title-text{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .main-slider .icon-img-box{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .emergency-help .appointment-shape-img{
+        display: none;
+    }
+
+    .singup-bg-color {
+        border-radius: 0px;
+        padding: 90px 50px 100px 100px;
+    }
+
+    /* about page responsive */
+
+    .video-section .image_icon {
+        text-align: center;
+        padding: 232px 160px;
+    }
+
+    /* ------------------------ */
+    .subscribe-one .form-group_btn .theme-btn{
+        right: 0px;
+        top: 90px;
+    }
+
+    .bannar-title_details {
+        padding: 117px;
+        font-size: 50px;
+        line-height: 33px;
+    }
+
+    .doctors-dtails_content .inner-image_box {
+        margin-top: 10px;
+    }
+
+    .team-members .image-box img {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    /* home one rsponsive */
+    .testimonial-section {
+        margin-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .singup-section .singup-bg-color {
+        border-radius: 0px;
+        padding: 50px 1px 50px 30px;
+    }
+
+    .apps-heading_text .view-btn.active {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom .footer-bottom_text {
+        display: block;
+        justify-content: space-between;
+    }
+
+    /* home two rsponsive */
+
+    .video-content .vedio-image .image_icon a::before, .video-content .vedio-image .image_icon a::after {
+       display: none;
+    }
+
+    .network-section .network-bg-color {
+        border-radius: 0px;
+        padding: 87px 30px 74px 30px;
+    }
+
+    .main-footer.home-two .widgets-section {
+        border-radius: 0;
+        padding: 69px 30px 58px 30px;
+    }
+
+    .main-slider.home-two .item.slider-one__slide {
+        padding-top: 100px;
+    }
+
+    .testimonial-section.home-two{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    /* home three responsive */
+    .service-carousel .image-blogs {
+        bottom: -67px;
+    }
+
+    /* home four responsive */
+    .main-bannar.home-four .item-slider-one .banner-title {
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .download-medica.four {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .download-medica.four .download-text-block .sec-title h3 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .blog-section.home-four {
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .blog-section .upper-box .sec-title h3{
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .sec-title h3 {
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    h3 {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .emergency-help .appointment-block {
+        max-width: 100%;
+        padding: 15px 15px;
+        margin-left: 0px;
+        margin-top: 75px;
+    }
+
+    .customers-service.home-four .service-carousel .image-blogs {
+        bottom: -55px;
+    }
+
+    .subscribe-one.home-four {
+        margin-top: 50px;
+    }
+
+    .subscribe-one.home-four .singup-content {
+        border-radius: 0;
+        padding: 36px 10px 95px 15px;
+    }
+
+    .singup-content .subscribe-title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .recent-blog .sec-title {
+        margin-bottom: 0px;
+    }
+
+    .recent-blog .new-block-one .inner-box {
+        margin-top: 30px;
+    }
+
+    .new-block-one .inner-box .lower-content {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .main-footer.home-four .footer-shape-img{
+        display: none;
+    }
+
+    .expert-member.home-four {
+        background: #FBFBFB;
+        padding: 50px 0px 103px 0px;
+    }
+
+    /* about page responsive */
+    .main-bannar.about-page .bannar-title{
+        font-size: 50px;
+        padding: 0px;
+    }
+
+    .main-bannar .bannar-shape-img {
+        display: none;
+    }
+
+    .download-medica {
+        margin-top: 50px;
+        margin-bottom: 88px;
+    }
+
+    .funfact-one .inner-items {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .expert-member .image-box .social-links-two{
+        right: 5px;
+    }
+
+    /* service page responsive */
+    .testimonial-section.service-page{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .choose-madica.home-three {
+        margin-bottom: 50px;
+    }
+
+    /* blog details responsive */
+    .bannar-title_details.two {
+        padding: 10px;
+    }
+
+    .bannar-title_details.two {
+        font-size: 40px;
+        line-height: 59px;
+    }
+
+    .blog-details-content blockquote {
+        padding: 44px 20px 43px 20px;
+    }
+
+    .blog-details-content .post-share-option .social-list {
+        float: left;
+        margin-top: 18px;
+    }
+
+    .comment-box .comment .comment-inner .comment-info .comment-persone {
+        display: block;
+    }
+
+    .subscribe-one .singup-content {
+        border-radius: 0;
+        padding: 40px 30px 92px 30px;
+    }
+   
+}
+
+@media only screen and (max-width: 375px) {
+    .main-header .header-upper .logo-outer{
+        max-width: 150px;
+    }
+
+    .main-header .main-menu .navbar-header{
+        position: absolute;
+        right: 30px;
+        top: 47px;
+    }
+
+    .choose-madica {
+        margin-top: 50px;
+    }
+
+    .choose-madica h3 {
+        font-size: 45px;
+        line-height: 65px;
+    }
+
+    .contact-system .inner-box{
+        margin-bottom: 15px;
+    }
+
+    .contact-system .image-blog{
+        width: 78px;
+        height: 78px;
+        line-height: 78px;
+    }
+
+    .testimonial-section .sec-sub_title {
+        font-size: 23px;
+        line-height: 13px;
+    }
+
+    .contact-system .inner-box .lower-content {
+        margin-left: 10px;
+    }
+
+    .image-content {
+        position: relative;
+        left: 1px;
+        bottom: -2px;
+    }
+
+    .testimonial-section{
+        margin-top: 0px;
+        padding-bottom: 72px;
+    }
+
+    .testimonial-section .three-item-carousel.owl-carousel.owl-theme.owl-loaded.owl-drag{
+        right: 0px;
+    }
+
+    .testimonial-section .three-item-carousel button.owl-prev{
+        display: none;
+    }
+
+    .testimonial-section .three-item-carousel button.owl-next{
+        display: none;
+    }
+
+    .testimonial-section .three-item-carousel .owl-dots {
+        display: none;
+    }
+
+    .download-medica {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .download-medica .video-section {
+        margin-top: 30px;
+    }
+
+    .download-medica .video-content{
+        margin-bottom: 0px;
+    }
+
+    .download-medica .vedio-image{
+        min-height: 312px;
+    }
+
+    .download-medica .vedio-image .image_icon{
+        padding: 81px 91px;
+    }
+
+    .expert-member .owl-nav {
+        display: none;
+    }
+
+    .expert-member .owl-dots {
+        display: none;
+    }
+
+    .apps-content .apps-heading_text {
+        font-size: 37px;
+        padding-top: 43px;
+    }
+
+    .apps-heading_text .view-btn.active {
+        margin-bottom: 30px;
+    }
+
+    .apps-download{
+        margin-top: 0px;
+    }
+
+    .apps-heading_text{
+        font-size: 33px;
+        line-height: 46px;
+    }
+
+    .service-btn.active{
+        margin-bottom: 15px;
+    }
+
+    .singup-bg-color {
+        padding: 135px 50px 82px 4px;
+        border-radius: 0px;
+    }
+
+    footer.main-footer.home-one .widgets-section{
+        margin-bottom: 0px;
+    }
+
+    .main-footer.home-one:after{
+        display: none;
+    }
+
+    /* home-two responsive */
+
+    .main-slider.home-two .banner-title {
+        font-size: 41px;
+        line-height: 70px;
+    }
+
+    .network-bg-color {
+        background: #247CFF;
+        border-radius: 0;
+        padding: 88px 10px 64px 48px;
+    }
+
+    .main-footer.home-two .widgets-section {
+        border-radius: 0;
+        padding: 69px 30px 58px 30px;
+    }
+
+    .testimonial-section.home-two .image-gallery .image-gallery_bottom .btn-box_two{
+        width: 100%;
+    }
+
+    .department-section {
+        margin: 50px 0px 20px 0px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .Projects-section {
+        margin-top: 80px;
+    }
+
+    .network-section {
+        margin-top: 80px;
+    }
+
+    .customers-service .service-carousel .image-blogs {
+        margin-bottom: 0px;
+    }
+
+    .main-footer{
+        padding-top: 0px;
+    }
+
+
+    .main-slider.home-three .item.slider-one__slide .slider-heading-title{
+        font-size: 48px;
+        line-height: 80px;
+    }
+
+
+    /* home four responsive */
+    .main-header.home-four .main-menu .navbar-header {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+
+    .news-block-one .inner-box .image-box .top-image {
+        bottom: 275px;
+    }
+
+    .customers-service.home-four .service-carousel .image-blogs {
+        bottom: -28px;
+    }
+
+    /* about page responsive */
+    section.singup-section {
+        margin-top: 30px;
+    }
+
+    .main-bannar.about-page {
+        margin-bottom: 30px;
+    }
+
+    .video-section .image_icon {
+        text-align: center;
+        padding: 232px 88px;
+    }
+
+    .video-content.about-page .vedio-image .image_icon a::before, .video-content .vedio-image .image_icon a::after {
+        width: 43%;
+        height: 24%;
+    }
+
+    .funfact-one .inner-items {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .customers-talk{
+        padding-bottom:0px;
+    }
+
+    button.theme-btn{
+        left: 0px;
+        top: 96px;
+    }
+
+    .customers-talk .bottom-item{
+        padding-left: 0px;
+    }
+
+    button.theme-btn:hover{
+        color:#ffffff;
+    }
+
+    .subscribe-one.about-page .form-group_btn{
+       padding-left: 0;
+    }
+
+    .singup-section .singup-bg-color {
+        padding: 68px 30px 82px 30px;
+        border-radius: 0px;
+    }
+
+    .singup-bg-color .singup-title {
+        font-size: 31px;
+    }
+
+    /* ----doctor page---------------- */
+    .expert-member.doctor-page {
+        margin-top: 50px;
+        padding: 52px 0px 30px 0px;
+    }
+
+
+    .team-members {
+        margin-top: 50px;
+        margin-bottom: 152px;
+    }
+
+    .touch-items.contact .contact-form textarea{
+        height: auto;
+    }
+
+    .our-loaction.four {
+        margin-bottom: 50px;
+    }
+
+    /* blog details repsonsive */
+    .singup-content .subscribe-title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .blog-details-content .comment-box .comment .comment-inner {
+        padding-left: 100px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px){
+  .main-menu .navigation > li > ul,
+  .main-menu .navigation > li > ul > li > ul,
+  .main-menu .navigation > li > .megamenu{
+    display:block !important;
+    visibility:hidden;
+    opacity:0;
+  }
+}
+
+
